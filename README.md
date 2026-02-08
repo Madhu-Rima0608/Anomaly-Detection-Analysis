@@ -49,6 +49,7 @@ Tree-Based & Supervised Models
 Each method is assessed for its suitability in fraud detection scenarios.
 
 ⚙️ Algorithms Used
+
 🔹 Statistical Anomaly Detection
 
 Z-Score
@@ -62,21 +63,25 @@ Suitable for simple distributions, but ineffective for complex fraud patterns.
 🔹 Density-Based Detection
 
 Local Outlier Factor (LOF)
+
 Detects anomalies based on local density deviation.
 
 🔹 Tree-Based Unsupervised Learning
 
 Isolation Forest ⭐
+
 Efficiently isolates rare observations without distribution assumptions.
 
 🔹 Clustering-Based Detection
 
 DBSCAN
+
 Identifies sparse regions as potential fraud clusters.
 
 🔹 Supervised Learning (Baseline)
 
 Random Forest Classifier ⭐⭐⭐
+
 Trained using labeled data to provide a performance benchmark.
 
 🔍 Key Findings
@@ -105,7 +110,7 @@ Jupyter Notebook
 
 ▶️ How to Run
 # Clone the repository
-git clone https://github.com/your-username/credit-card-fraud-detection.git
+git clone https://github.com/Madhu-Rima0608/credit-card-fraud-detection.git
 
 # Navigate to the project directory
 cd credit-card-fraud-detection
@@ -115,6 +120,7 @@ pip install -r requirements.txt
 
 # Open the notebook
 jupyter notebook analysis.ipynb
+
 
 Conclusion
 
